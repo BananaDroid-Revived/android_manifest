@@ -152,6 +152,7 @@
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="lineage" />
+  <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" groups="pdk-fs" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="lineage" />
@@ -175,6 +176,7 @@
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="lineage" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
