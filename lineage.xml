@@ -27,6 +27,7 @@
   <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" /> -->
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage" />
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />
@@ -177,6 +178,7 @@
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+  <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
