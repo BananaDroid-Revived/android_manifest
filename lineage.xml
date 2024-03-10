@@ -26,7 +26,7 @@
        a local manifest if you desire x86_64 Webview -->
   <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" /> -->
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
-  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" />
+  <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />
@@ -35,6 +35,7 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
+  <project path="frameworks/ml" name="android_frameworks_ml" groups="pdk" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
@@ -50,7 +51,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
-  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
