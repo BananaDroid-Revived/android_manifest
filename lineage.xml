@@ -50,6 +50,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
+  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
