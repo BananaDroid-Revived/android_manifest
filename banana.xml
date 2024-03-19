@@ -6,7 +6,7 @@
            revision="11"
            sync-j="8" />
   
-    <remote  name="revive"
+  <remote  name="revive"
            fetch="https://github.com/bananadroid-revived"
            revision="11"
            sync-j="8" />
