@@ -13,6 +13,11 @@ To initialize your local repository, use this command:
 
     repo init -u https://github.com/bananadroid/android_manifest.git -b 11
 
+To initialize Shallow-Clone, use this command:
+---------------------------------------------
+
+    repo init --depth=1 -u https://github.com/bananadroid/android_manifest.git -b 11
+
 To sync the repository, use this command:
 -----------------------------------------
 
