@@ -178,7 +178,7 @@
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
-  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="lineage" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="lineage" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
