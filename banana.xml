@@ -152,7 +152,7 @@
   <project path="tools/metalava" name="android_tools_metalava" remote="banana" />
 
   <!-- Vendor -->
-  <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
+  <project path="vendor/banana" name="android_vendor_banana" remote="revive" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="banana-gitlab" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="banana" />
