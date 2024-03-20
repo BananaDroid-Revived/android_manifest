@@ -129,9 +129,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="revive" />
 
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="banana" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
-
+  
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="banana" />
   <project path="prebuilts/clang/host/linux-x86/clang-r433403" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" remote="gitlab" revision="refs/heads/11.0" />
